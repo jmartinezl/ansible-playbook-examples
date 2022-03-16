@@ -3,7 +3,7 @@
 
  tasks:
  - name: stop existing container
-   command: dockerstop regapp-server
+   command: docker stop regapp-server
    ignore_errors: yes
    
  - name: remove the container
