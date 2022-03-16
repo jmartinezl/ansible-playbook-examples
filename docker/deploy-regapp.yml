@@ -15,4 +15,4 @@
    ignore_errors: yes
  
  - name: create container
-   command: docke run -d --name regapp-server -p 8082:8080 jmartinezl/regapp:latest
+   command: docker run -d --name regapp-server -p 8082:8080 jmartinezl/regapp:latest
